@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+button {
+  color: black;
+  background-color: rgb(30, 22, 22);
+}
+
+.purple {
+  background-color: purple;
+}
+
+.blue {
+  background-color: darkblue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.white {
+  background-color: white;
+}
+
+.red {
+  background-color: red;
+}
