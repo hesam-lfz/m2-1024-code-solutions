@@ -1,0 +1,9 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.toggle-switch-size {
+  width: 10vw;
+  height: 5vw;
+}
