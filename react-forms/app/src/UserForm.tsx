@@ -16,8 +16,14 @@ export function UserForm({ user }: Props) {
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const formData = { username, password };
-    console.log(formData);
+    const isNew = user === undefined;
+    if (isNew) {
+      user = { username, password };
+    } else {
+      user!.username = username;
+      user!.password = password;
+    }
+    console.log(user);
   };
   return (
     <form onSubmit={handleSubmit}>
