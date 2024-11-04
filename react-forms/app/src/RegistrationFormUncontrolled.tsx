@@ -1,4 +1,3 @@
-// import { useState } from 'react';
 import { FormEvent } from 'react';
 import './RegistrationFormUncontrolled.css';
 
@@ -9,13 +8,7 @@ interface FormElements extends HTMLFormControlsCollection {
 }
   */
 
-type Props = {
-  label: string;
-};
-
-export function RegistrationFormUncontrolled({ label }: Props) {
-  // const [clicks, setClicks] = useState(0);
-
+export function RegistrationFormUncontrolled() {
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const formElement = event.currentTarget as HTMLFormElement;
@@ -35,7 +28,7 @@ export function RegistrationFormUncontrolled({ label }: Props) {
       <input name="username" type="text"></input>
       <label htmlFor="password">Password:</label>
       <input name="password" type="password"></input>
-      <button>{label}</button>
+      <button>Submit</button>
     </form>
   );
 }
