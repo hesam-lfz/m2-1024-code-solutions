@@ -1,0 +1,16 @@
+form {
+  border-style: dashed;
+}
+
+form button {
+  margin: 20px auto;
+}
+
+form label,
+form button {
+  display: block;
+}
+
+form input {
+  margin: 10px;
+}
