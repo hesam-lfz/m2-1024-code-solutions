@@ -1,0 +1,67 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+input,
+label {
+  margin: 20px;
+  border-width: 4px;
+  font-size: 2rem;
+}
+
+label {
+  display: block;
+}
+
+input {
+  color: cyan;
+  width: 300px;
+}
+
+.input-mark {
+  display: inline-block;
+  position: absolute;
+  right: -60px;
+  top: -16px;
+}
+
+.green {
+  color: lime;
+}
+
+.red {
+  color: red;
+}
+
+.row {
+  display: flex;
+  position: relative;
+}
+
+.container {
+  position: relative;
+}
+
+.message {
+  position: absolute;
+  color: brown;
+  left: 100px;
+}
