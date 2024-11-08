@@ -9,9 +9,10 @@ export function Indicators({ count, index, onClick }: Props) {
     <div>
       {[...Array(count).keys()].map((i) => (
         <button
+          key={String(i)}
           className={i === index ? 'selected' : ''}
           onClick={() => onClick(i)}>
-          {i}
+          {String(i)}
         </button>
       ))}
     </div>
