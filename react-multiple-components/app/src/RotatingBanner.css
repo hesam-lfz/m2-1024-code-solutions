@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border-style: groove;
+  border-width: 10px;
+  border-radius: 5px;
+  border-color: aquamarine;
+  margin: 10px 2px;
+}
+
+button.selected {
+  background-color: darkcyan;
+}
