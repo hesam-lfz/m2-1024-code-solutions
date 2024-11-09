@@ -1,0 +1,36 @@
+.search-panel {
+  text-align: left;
+  background-color: aliceblue;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 50px;
+  border-radius: 50px;
+  width: 75vw;
+  height: 75vh;
+}
+
+.search-bar {
+  display: flex;
+  border-radius: 20px;
+  padding: 10px;
+  width: 50%;
+}
+
+.search-bar img {
+  display: block;
+  width: 20px;
+  margin: 10px;
+}
+
+.search-bar input {
+  background-color: transparent;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+}
