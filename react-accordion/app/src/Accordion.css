@@ -1,0 +1,19 @@
+.accordion {
+  width: 50vw;
+}
+
+.topic-card .topic-card-title,
+.topic-card .topic-card-content {
+  margin: 0;
+}
+
+.topic-card .topic-card-title {
+  cursor: pointer;
+  border-color: plum;
+  border-style: solid;
+}
+
+.topic-card .topic-card-content {
+  border-color: gray;
+  border-style: dashed;
+}
