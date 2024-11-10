@@ -31,7 +31,9 @@ export function Accordion({ topics }: AccordionProps) {
   const [currentTopicId, setCurrentTopicId] = useState(-1);
 
   function handleTopicClick(event: React.MouseEvent) {
-    const topicId = Number((event.target! as HTMLElement).dataset.topicId);
+    const $element = event.target! as HTMLElement;
+    if ($element.className !== 'topic-card-title') return;
+    const topicId = Number($element.dataset.topicId);
     setCurrentTopicId(currentTopicId === topicId ? -1 : topicId);
   }
 
