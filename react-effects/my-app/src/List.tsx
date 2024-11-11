@@ -28,12 +28,11 @@ export function List() {
       */
       // Option 2: Using promise async await
       try {
-        const res = await readItems();
-        setIsLoading(false);
-        setItems(res);
+        setItems(await readItems());
       } catch (err) {
-        setIsLoading(false);
         setError(err);
+      } finally {
+        setIsLoading(false);
       }
     }
     retrieveData();
