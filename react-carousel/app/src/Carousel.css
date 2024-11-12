@@ -1,0 +1,40 @@
+.carousel {
+  border-style: dashed;
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-main {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carousel-nav-dots {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel img {
+  width: 200px;
+  display: none;
+}
+
+.carousel .current-image {
+  display: block;
+}
+
+.nav-button {
+  cursor: pointer;
+}
+
+.nav-dot {
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.current-dot {
+  color: grey;
+}
