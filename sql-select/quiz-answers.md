@@ -1,0 +1,24 @@
+# Quiz Answers
+
+- What is SQL and how is it different from languages like JavaScript?
+  - SQL is a declarative programming language. Instead of telling the code what to do, you describe the results you want.
+- How do you retrieve specific columns from a database table?
+  - To retrieve specific columns, you would do `select "column"`,
+- How do you filter rows based on some specific criteria?
+  - To filter rows based on some specific criteria, you would use the `where` clause.
+- What are the benefits of formatting your SQL?
+  - The main benefit of formatting your SQL is for readability.
+- What are four comparison operators that can be used in a `where` clause?
+  - Here are a list of some comparison operators that can be used in a `where` clause
+    - =
+    - >
+    - <
+    - > =
+    - <=
+    - <>
+- How do you limit the number of rows returned in a result set?
+  - By using the `limit` clause, you can limit the number of rows returned in a result set.
+- How do you retrieve all columns from a database table?
+  - To retrieve all columns, you can use an asterisk.
+- How do you control the sort order of a result set?
+  - To control the sort order of a result set, you would use the `order by` clause, followed by the column name, and either DESC or ASC.
