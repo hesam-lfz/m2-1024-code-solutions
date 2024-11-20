@@ -1,1 +1,1 @@
-psql -d pagila -c '\dt'
+psql -d $1 -c '\dt'

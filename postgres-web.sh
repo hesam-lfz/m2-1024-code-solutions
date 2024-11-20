@@ -1,1 +1,1 @@
-pgweb --db pagila
+pgweb --db $1
