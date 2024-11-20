@@ -1,1 +1,1 @@
-psql -d pagila -f $1
+psql -d $1 -f $2
