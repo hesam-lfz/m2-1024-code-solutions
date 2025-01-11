@@ -26,7 +26,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        <button>Clicky hea</button>
+        <button>Clicky hea!</button>
       </p>
     </>
   );
